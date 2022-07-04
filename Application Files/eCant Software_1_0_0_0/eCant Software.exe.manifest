@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="eCant Software.exe" version="1.0.0.0" publicKeyToken="09fae9efe85765bf" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="project icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="eCant Software" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="eCant Software.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="eCant Software.exe" size="1815040">
+      <assemblyIdentity name="eCant Software" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Sgb7hQ5puhBesIWUD28RVeaSeF4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Accounts Database.accdb" size="368640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WvSORfA3HA7j8l+PuYdeKnC6OjI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Billing Sys.accdb" size="425984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XllmJAHXZDmMsyeD4W1HWEK3ZnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="eCant Software.exe.config" size="4213">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ftiyCpna+6AiLBWN3u8jcL4qTLA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EMD.accdb" size="950272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k4daZhGLh22P56f14jqNLNuwFbA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Item Stock.accdb" size="364544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y7Fsu6gBLt+edN75V0ygiDbqsDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Order Purchase.accdb" size="356352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BW28/UpDs5np1sMu8q7B/JGHv4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Order Transaction.accdb" size="344064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9ibBoL0zYD0KJmW6WBQcPFdv4iQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="project icon.ico" size="38078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y2w3MlTeSEZbBEIwZzdEeIbBjCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sales.accdb" size="425984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tq9yZIKYu0T4umHfHBHAak6x9Vs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Security Management.accdb" size="376832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XdcmF5kHFDo8MOFwNlwFny0fIfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TransactionDatabase.accdb" size="327680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wVJqIO/3x6zvBtkdRKrZEP34lXY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Chaks-PC\Chaks" issuerKeyHash="1a8778c0b65bbbb9898ef2353436804bc03a8997" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QdxYTvnnuwbaZdnG9yd4yFWphX4=</DigestValue></Reference></SignedInfo><SignatureValue>TWkAlgsOEMj5fIUqLCPFefGh5loJGAbcs0zuYKqGhIEKMtubo2GmlB1laBPfGh0hOmF7FIcwBb18+NuJx4BvX3V6JucwGwkC/SbeDS35+kdMWzWHflIM86AO0ZfOZZpeUpHFZfr/+jalhL5uZ724zUPriLn0Ifv8eT40CVRUwvc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wgXlBCuh7uyr8iiwZmD9yHJQNXsfBAfRjxHAH0vTfYVVvh1/eMymsvox78tJJVeL4Z4OgadjVRyTE0MxosNoWsSl5wE9A1rJLeGSRmT+sIW+2J9B9O3ZxxqQ3TdBJyDR3WDcVRJqHDlX8g+1bRIuksjrlMphrBrr+3SO72BU1k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7e85a955c87827f7c6d965da06bbe7f94e58dc41" Description="" Url=""><as:assemblyIdentity name="eCant Software.exe" version="1.0.0.0" publicKeyToken="09fae9efe85765bf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Chaks-PC\Chaks</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>NSX20fJKBBztWj0S6CFurdMKuXs=</DigestValue></Reference></SignedInfo><SignatureValue>Nfs0h4okEJhnOy5wEpTOShqEWybfVQDBuzckJUbdUg/XUcc/k7uqnEWczlV00EP8HJpKuLLdFfBxccQfEfa0Osr7iYeIyaA2GJEzKlnozLtVsa2hIUjuLjYd5ZF0C3K05H6dQqKwSH28ffKXuQ6qT+mOXw2Ji764yG86Pq9uz00=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wgXlBCuh7uyr8iiwZmD9yHJQNXsfBAfRjxHAH0vTfYVVvh1/eMymsvox78tJJVeL4Z4OgadjVRyTE0MxosNoWsSl5wE9A1rJLeGSRmT+sIW+2J9B9O3ZxxqQ3TdBJyDR3WDcVRJqHDlX8g+1bRIuksjrlMphrBrr+3SO72BU1k8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQX1S/CVeW64xFoeLgYrgleDANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAQwBoAGEAawBzAC0AUABDAFwAQwBoAGEAawBzMB4XDTE4MTExOTE0MTcwN1oXDTE5MTExOTIwMTcwN1owJzElMCMGA1UEAx4cAEMAaABhAGsAcwAtAFAAQwBcAEMAaABhAGsAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwgXlBCuh7uyr8iiwZmD9yHJQNXsfBAfRjxHAH0vTfYVVvh1/eMymsvox78tJJVeL4Z4OgadjVRyTE0MxosNoWsSl5wE9A1rJLeGSRmT+sIW+2J9B9O3ZxxqQ3TdBJyDR3WDcVRJqHDlX8g+1bRIuksjrlMphrBrr+3SO72BU1k8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQCfkIA5hx3jyGQjMzQuc0w3RhDHpFRDyTaFPKvK1ko4JfR3JsxNyfo5/En1Iy6sWTf7F2oXKSjzzvRpA669ohMBoj0on7CmGUn4tiBqedvLWWKIk0J/JAh9TdzwXVc7Ue6Z+uLue5uNh9KZUcnZal82zw89bYtM4Rtsdyi/7geI/Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
